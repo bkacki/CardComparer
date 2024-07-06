@@ -25,7 +25,7 @@ namespace CardComparer
         static void PrintCards(List<Card> deckToPrint)
         {
             foreach(Card card in deckToPrint)
-                Console.WriteLine($"{card.Name}");
+                Console.WriteLine(card);
         }
 
         static Card RandomCard()
